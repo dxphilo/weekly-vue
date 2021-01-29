@@ -1,13 +1,12 @@
 # Weekly-Vue
 
-        <h2>Subscribe.</h2>
+##Subscribe.
 
-        <h3>To our newsletter</h3>
+###To our newsletter
 
-        
-        <p>
-          Subscribe to get your weekly curated dose of Vue.js jobs ( Junior - Senior ) roles and Vue.js articles delivered into your mailbox.
-        </p>
+
+Subscribe to get your weekly curated dose of Vue.js jobs ( Junior - Senior ) roles and Vue.js articles delivered into your mailbox.
+
 
 
 
