@@ -1,8 +1,8 @@
 # Weekly-Vue
 
-##Subscribe.
+## Subscribe.
 
-###To our newsletter
+### To our newsletter
 
 
 Subscribe to get your weekly curated dose of Vue.js jobs ( Junior - Senior ) roles and Vue.js articles delivered into your mailbox.
