@@ -18,7 +18,6 @@
             v-model="email"
             required
           />
-          <button type="submit">Send</button>
         </form>
       </div>
     </div>
@@ -109,7 +108,23 @@ export default {
   outline: none;
 }
 .sub-news button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
   cursor: pointer;
+}
+.sub-news button svg {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  transform: scale(0.7);
+  transition: 0.4s;
+  fill: white;
+  border: 2px solid #48cf9b;
+}
+sub-news button svg:hover {
+  fill: #48cf9b;
 }
 
 @media (max-width: 414px) {
