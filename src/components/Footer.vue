@@ -74,6 +74,11 @@
     </ul>
   </div>
 </template>
+<script>
+export default {
+  name: "Footer",
+};
+</script>
 <style scoped>
 .social-icons {
   display: flex;

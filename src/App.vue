@@ -1,7 +1,7 @@
 <template>
   <div class="weekly-vue">
     <Header />
-    <router-view />
+    <Home />
     <Footer />
   </div>
 </template>
@@ -14,11 +14,15 @@ const Header = defineAsyncComponent(() =>
 const Footer = defineAsyncComponent(() =>
   import(/*webpackChunkName: "Footer"*/ "@/components/Footer")
 );
+const Home = defineAsyncComponent(() =>
+  import(/*webpackChunkName: "Home"*/ "@/components/Home")
+);
 export default {
   name: "App",
   components: {
     Header,
     Footer,
+    Home,
   },
   setup() {
     const email = ref("");
