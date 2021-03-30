@@ -1,7 +1,26 @@
 <template>
   <div class="weekly-vue">
     <Header />
-    <Home />
+    <div class="subcontent">
+      <div class="sub-news">
+        <h2>Subscribe.</h2>
+        <h3>to this newsletter</h3>
+        <p>
+          Subscribe to get your weekly curated<br />
+          dose of Vue.js jobs ( Junior - Senior ) roles <br />
+          and Vue.js articles delivered into your mailbox.
+        </p>
+
+        <form @submit.prevent="emailSub">
+          <input
+            type="email"
+            placeholder="your email address"
+            v-model="email"
+            required
+          />
+        </form>
+      </div>
+    </div>
     <Footer />
   </div>
 </template>
@@ -14,15 +33,11 @@ const Header = defineAsyncComponent(() =>
 const Footer = defineAsyncComponent(() =>
   import(/*webpackChunkName: "Footer"*/ "@/components/Footer")
 );
-const Home = defineAsyncComponent(() =>
-  import(/*webpackChunkName: "Home"*/ "@/components/Home")
-);
 export default {
   name: "App",
   components: {
     Header,
     Footer,
-    Home,
   },
   setup() {
     const email = ref("");
