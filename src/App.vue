@@ -6,9 +6,9 @@
         <h2>Subscribe.</h2>
         <h3>to this newsletter</h3>
         <p>
-          Subscribe to get your weekly curated<br />
-          dose of Vue.js jobs ( Junior - Senior ) roles <br />
-          and Vue.js articles delivered into your mailbox.
+          You will receive weekly curated<br />
+          dose of Vue.js jobs ( Junior - Senior ) <br />
+          and Vue.js articles delivered to your mailbox.
         </p>
 
         <form @submit.prevent="emailSub">
@@ -96,14 +96,14 @@ export default {
   line-height: 1.4;
 }
 .sub-news p {
-  font-size: 1.3em;
+  font-size: 1.35em;
   letter-spacing: 1px;
   font-weight: 300;
   line-height: 1.5;
   padding-top: 2%;
 }
 .sub-news form {
-  padding-top: 8%;
+  padding-top: 7%;
   position: relative;
 }
 .sub-news input {
