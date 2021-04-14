@@ -139,5 +139,9 @@ router-link {
   .subcontent {
     padding-top: 6rem;
   }
+  .sub-news input {
+    padding: 10px 40px;
+    font-size: 1rem;
+  }
 }
 </style>
