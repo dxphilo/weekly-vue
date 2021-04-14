@@ -4,7 +4,9 @@
 
 ![Weekly Vue design ](./src/assets/weekly-vue.JPG)
 
-## Subscribe.
+<div align="center">
+  <h2>Subscribe</h2>
+</div>
 
 ### To this newsletter
 
