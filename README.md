@@ -2,7 +2,7 @@
   <h1>Weekly Vue👋</h1>
 </div>
 
-![Weekly Vue design ](./src/assets/weekly-vue.jpg)
+![Weekly Vue design ](./src/assets/weekly-vue.JPG)
 
 ## Subscribe.
 
