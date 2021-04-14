@@ -14,7 +14,7 @@
         <form @submit.prevent="emailSub">
           <input
             type="email"
-            placeholder=" Enter your email address"
+            placeholder="E-mail address here"
             v-model="email"
             required
           />

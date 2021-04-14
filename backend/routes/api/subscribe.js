@@ -1,8 +1,8 @@
 
 const express = require('express');
 const mongodb = require('mongodb');
+const config = require('../config/keys.js');
 
-const password = 'uTBNvjQr7SEcEVf'
 
 const router = express.Router();
 // GET 
@@ -25,7 +25,7 @@ router.post('/', async (req, res) => {
 })
 
 async function loadSubscriptionCollection() {
-    const client = await mongodb.MongoClient.connect('mongodb+srv://philoweb:uTBNvjQr7SEcEVf@cluster0.3xsdp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true })
+    const client = await mongodb.MongoClient.connect(`${config.keys.mongoUri}`, { useUnifiedTopology: true, useNewUrlParser: true })
     return client.db('philoweb').collection('subscribers')
 }
 
