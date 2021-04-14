@@ -66,7 +66,7 @@ export default {
 }
 @media (max-width: 414px) {
   .header-links ul li {
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding-right: 3%;
   }
 }
