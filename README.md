@@ -1,8 +1,12 @@
-# Weekly-Vue
+<div align="center">
+  <h1>Weekly Vue👋</h1>
+</div>
+
+![Weekly Vue design ](./src/assets/weekly-vue.jpg)
 
 ## Subscribe.
 
-### To our newsletter
+### To this newsletter
 
 
 Subscribe to get your weekly curated dose of Vue.js jobs ( Junior - Senior ) roles and Vue.js articles delivered into your mailbox.

@@ -6,8 +6,11 @@ const password = 'uTBNvjQr7SEcEVf'
 
 const router = express.Router();
 // GET 
-router.get('/', (req, res) => {
-    res.send('<h1>404 | Not Found</h1>')
+router.get('/', async (req, res) => {
+    const subemail = await loadSubscriptionCollection();
+    // fetch all the info from the database
+    res.send(await subemail.find({}).toArray())
+
 })
 
 // POST request to the  mongo DB server
