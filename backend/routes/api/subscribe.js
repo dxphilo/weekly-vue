@@ -26,7 +26,7 @@ router.post('/', async (req, res) => {
 
 async function loadSubscriptionCollection() {
     const client = await mongodb.MongoClient.connect(`${config.keys.mongoUri}`, { useUnifiedTopology: true, useNewUrlParser: true })
-    return client.db('philoweb').collection('subscribers')
+    return client.db('weeklyvue').collection('subscribers')
 }
 
 

@@ -26,6 +26,7 @@
 </template>
 
 <script>
+import PostService from "./Postservice";
 import { defineAsyncComponent, ref } from "vue";
 const Header = defineAsyncComponent(() =>
   import(/*webpackChunkName: "Header"*/ "@/components/Header")
@@ -42,10 +43,12 @@ export default {
   setup() {
     const email = ref("");
 
-    function emailSub() {
+    async function emailSub() {
+      await PostService.postEmail(email.value);
       console.log(email.value);
       email.value = "";
     }
+
     return { email, emailSub };
   },
 };
