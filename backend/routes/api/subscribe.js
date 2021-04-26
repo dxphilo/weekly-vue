@@ -1,7 +1,7 @@
 
 const express = require('express');
 const mongodb = require('mongodb');
-const config = require('../config/keys.js');
+const config = require('.../config/keys.js');
 
 
 const router = express.Router();

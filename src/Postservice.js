@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/subscribe';
+const url = '/subscribe';
 
 class PostService {
     // CREATE SUBSCRIPTION
