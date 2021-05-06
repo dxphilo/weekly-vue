@@ -11,8 +11,9 @@ app.use(cors());
 const subscribe = require('../routes/api/subscribe');
 
 app.use('/subscribe', subscribe)
-// handle production environment
 
+
+// handle production environment
 if (process.env.NODE_ENV === 'production') {
     // static folder
     app.use(express.static(__dirname + '/public/'));
